@@ -150,3 +150,22 @@ ul {
     border-radius: 25px;
     text-decoration: none;
 }
+
+.hero-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 227px;
+    padding-bottom: 40px;
+}
+
+.stat h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: auto;
+}
+
+.hero-stats p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: auto;
+}
