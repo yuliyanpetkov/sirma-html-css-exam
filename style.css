@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+font-family: "DM Sans", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+svg {
+    color: white;
+    width: 177.49px;
+    height: 30px;
+}
