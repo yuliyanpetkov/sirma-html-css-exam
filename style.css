@@ -218,12 +218,12 @@ ul {
 }
 
 .card {
-    position: relative; /* Required for positioning text */
+    position: relative;
     width: 430px;
     height: 400px;
     flex: 1;
     overflow: hidden; 
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 10%, transparent 25%);
     background-size: cover;
@@ -241,22 +241,22 @@ ul {
 }
 
 .card-text {
-    position: absolute; /* Position text on top of the image */
-    bottom: 20px; /* Distance from the bottom */
-    left: 20px; /* Distance from the left */
-    color: white; /* Text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow to text for better readability */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     z-index: 2;
 }
 
 .card-text h2 {
-    margin: 0; /* Remove default margin */
-    font-size: 24px; /* Larger font size for the city name */
+    margin: 0;
+    font-size: 24px;
 }
 
 .card-text p {
-    margin: 5px 0 0; /* Add spacing between city name and country */
-    font-size: 16px; /* Smaller font size for the country */
+    margin: 5px 0 0;
+    font-size: 16px;
 }
 
 .platform-section {
@@ -320,13 +320,13 @@ ul {
 
 .call-to-action {
     color: white;
-    font-size: 14px; /* Slightly larger font */
-    padding: 12px 24px; /* Larger padding */
+    font-size: 14px;
+    padding: 12px 24px;
     background: black;
-    border: none; /* Remove border */
+    border: none;
     border-radius: 25px;
     text-decoration: none;
-    display: inline-block; /* Ensure it behaves like a button */
+    display: inline-block;
     transition: background-color 0.3s ease;
 }
 
@@ -341,7 +341,7 @@ ul {
 
 .platform-image img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
     border-radius: 10px;
 }
 
@@ -370,7 +370,7 @@ ul {
 .cards-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Space between cards */
+    gap: 20px;
 }
 
 .card {
@@ -378,30 +378,30 @@ ul {
     background: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card-image {
     position: relative;
-    height: 250px; /* Fixed height for the image */
+    height: 250px;
     overflow: hidden;
 }
 
 .card-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the image covers the area */
+    object-fit: cover;
 }
 
 .card-content {
     padding: 20px;
-    background: white; /* White background for text */
+    background: white;
     text-align: left;
 }
 
@@ -435,7 +435,7 @@ ul {
 }
 
 .explore-more:hover {
-    background-color: #333; /* Darker on hover */
+    background-color: #333;
 }
 
 .testimonials-section {
@@ -453,22 +453,22 @@ ul {
 .testimonials-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Space between testimonials */
+    gap: 20px;
 }
 
 .testimonial {
     flex: 1;
     /* background: #E5E5E5; */
-    border: 1px solid #E5E5E5; /* Slight border */
-    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
     padding: 20px;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .testimonial:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial p {
@@ -491,42 +491,48 @@ ul {
 }
 
 .explore-section {
-    padding: 60px 20px; /* Padding for the section */
+    padding: 60px 20px; 
     text-align: center;
 }
 
 .explore-content {
-    max-width: 1200px; /* Increase max-width for better spacing */
+    max-width: 1200px; 
     margin: 0 auto;
-    background: #f8f8f8; /* Light gray background */
-    padding: 40px; /* Padding inside the content div */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
-    display: flex; /* Use Flexbox for horizontal alignment */
-    align-items: center; /* Vertically center the content */
-    justify-content: space-between; /* Space between text and buttons */
-    gap: 40px; /* Space between text and buttons */
+    background: #f8f8f8; 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 40px; 
 }
 
 .text-content {
-    text-align: left; /* Align text to the left */
-    flex: 1; /* Allow text to take up available space */
+    text-align: left;
+    flex: 1; 
 }
 
 .text-content h2 {
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: 400;
     margin-bottom: 20px;
+
 }
 
 .text-content p {
     font-size: 16px;
     color: #4F4F53;
-    margin-bottom: 0; /* Remove bottom margin */
+    margin-bottom: 0;
+}
+
+.paragraph-content {
+    padding-bottom: 64px;
 }
 
 .buttons {
     display: flex;
-    gap: 20px; /* Space between buttons */
+    gap: 20px;
 }
 
 .learn-more, .start-adventure {
@@ -560,7 +566,7 @@ ul {
 }
 
 .footer-section {
-    background: #000000; /* Pure black background */
+    background: #000000;
     color: white;
     padding: 40px 20px;
     margin-left: 20px;
@@ -573,13 +579,13 @@ ul {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 40px; /* Space between sections */
+    gap: 40px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #555; /* Divider line */
+    border-bottom: 1px solid #555;
 }
 
 .footer-logo img {
-    width: 150px; /* Adjust logo size */
+    width: 150px;
     margin-bottom: 20px;
 }
 
@@ -595,8 +601,8 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Display links horizontally */
-    gap: 20px; /* Space between links */
+    display: flex;
+    gap: 20px;
 }
 
 .footer-links ul li a {
@@ -611,7 +617,7 @@ ul {
 }
 
 .footer-newsletter {
-    max-width: 400px; /* Limit width of newsletter section */
+    max-width: 400px;
 }
 
 .footer-newsletter h3 {
@@ -627,7 +633,7 @@ ul {
 .footer-newsletter input {
     padding: 10px;
     border: 1px solid #ffffff;
-    border-radius: 25px; /* Rounded corners like the button */
+    border-radius: 25px;
     background: #000000;
     color: white;
     font-size: 14px;
@@ -639,11 +645,11 @@ ul {
 }
 
 .footer-newsletter button {
-    padding: 12px 24px; /* Match "Learn more" button style */
-    background: white; /* White background */
-    color: black; /* Black text */
-    border: 2px solid black; /* Black border */
-    border-radius: 25px; /* Rounded corners */
+    padding: 12px 24px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
