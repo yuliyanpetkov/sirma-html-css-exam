@@ -685,3 +685,251 @@ ul {
 .footer-legal a:hover {
     color: white;
 }
+
+/* Responsive adjustments for laptops (1024px or smaller) */
+@media (max-width: 1024px) {
+    .header-section {
+        padding: 20px;
+    }
+
+    .header-section-content {
+        padding-right: 20px;
+    }
+
+    .nav-links {
+        gap: 24px;
+
+    /* Hero Section */
+    .hero-section h1 {
+        font-size: 48px;
+    }
+
+    .hero-stats {
+        gap: 120px;
+    }
+
+    .location-headline h1 {
+        font-size: 36px;
+    }
+
+    .card-container {
+        gap: 16px;
+    }
+
+    /* Platform Section */
+    .platform-section {
+        padding: 40px 20px;
+    }
+
+    .platform-content h1 {
+        font-size: 36px; 
+    }
+
+    /* Travel Plans Section */
+    .travel-plans h1 {
+        font-size: 36px; /* Reduce font size */
+    }
+
+    .cards-container {
+        gap: 16px; /* Reduce gap between cards */
+    }
+
+    /* Testimonials Section */
+    .testimonials-container {
+        gap: 16px; /* Reduce gap between testimonials */
+    }
+
+    /* Explore Section */
+    .explore-content {
+        gap: 20px; /* Reduce gap between text and buttons */
+    }
+
+    /* Footer Section */
+    .footer-content {
+        gap: 20px; /* Reduce gap between sections */
+    }
+}
+
+@media (max-width: 768px) {
+    .header-section {
+        background-size: cover;
+        padding: 10px;
+        margin: 10px; 
+    }
+
+    .header-section-content {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0; 
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+    .logo-container {
+        margin-bottom: 20px;
+    }
+
+    .auth-buttons {
+        margin-top: 10px;
+
+    .hero-section h1 {
+        font-size: 36px;
+    }
+
+    .hero-section p {
+        font-size: 14px;
+    }
+
+    .hero-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .location-headline h1 {
+        font-size: 28px;
+    }
+
+    .location-headline p {
+        font-size: 14px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .platform-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .platform-content {
+        max-width: 100%;
+    }
+
+    .platform-image {
+        max-width: 100%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Testimonials Section */
+    .testimonials-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .explore-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-newsletter .newsletter-form {
+        flex-direction: column;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-section h1 {
+        font-size: 28px;
+    }
+
+    .header-section p {
+        font-size: 12px;
+    }
+
+    .hero-section h1 {
+        font-size: 24px;
+    }
+
+    .hero-section p {
+        font-size: 12px;
+    }
+
+    .location-headline h1 {
+        font-size: 24px;
+    }
+
+    .location-headline p {
+        font-size: 12px;
+    }
+
+    .platform-content h1 {
+        font-size: 24px;
+    }
+
+    .platform-content p {
+        font-size: 12px;
+    }
+
+    .travel-plans h1 {
+        font-size: 24px;
+    }
+
+    .travel-plans p {
+        font-size: 12px;
+    }
+
+    .testimonial p {
+        font-size: 14px;
+    }
+
+    .explore-content h2 {
+        font-size: 24px;
+    }
+
+    .explore-content p {
+        font-size: 12px; 
+    }
+
+    .footer-logo p {
+        font-size: 12px; 
+    }
+
+    .footer-newsletter h3 {
+        font-size: 16px;
+    }
+
+    .footer-newsletter input {
+        font-size: 12px; 
+    }
+
+    .footer-newsletter button {
+        font-size: 12px;
+    }
+}
