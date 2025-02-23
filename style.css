@@ -27,13 +27,15 @@ svg {
     background-size: 100%;
     width: 100%;
     height: 100vh;
+    max-width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 20px
+    padding: 20px;
+    margin: 20px;
 }
 
 .header-section-content {
@@ -42,6 +44,8 @@ svg {
     align-items: center;
     justify-content: center;
     padding-right: 30px;
+    margin-top: 35px;
+    /* padding-right: 20px; */
 }
 
 logo-container {
@@ -205,4 +209,45 @@ ul {
     line-height: auto;
     letter-spacing: 0%;
     color: black;
+}
+
+.card-container {
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: space-between; /* Space cards evenly */
+    gap: 20px; /* Add space between cards */
+    padding: 20px; /* Add padding around the container */
+    margin: 31px;
+}
+
+.card {
+    position: relative; /* Required for positioning text */
+    flex: 1; /* Each card takes equal space */
+    overflow: hidden; /* Ensure the image doesn't overflow */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.card img {
+    width: 100%; /* Make the image fill the card */
+    height: 300px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    display: block; /* Remove extra space below the image */
+}
+
+.card-text {
+    position: absolute; /* Position text on top of the image */
+    bottom: 20px; /* Distance from the bottom */
+    left: 20px; /* Distance from the left */
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to text for better readability */
+}
+
+.card-text h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Larger font size for the city name */
+}
+
+.card-text p {
+    margin: 5px 0 0; /* Add spacing between city name and country */
+    font-size: 16px; /* Smaller font size for the country */
 }
