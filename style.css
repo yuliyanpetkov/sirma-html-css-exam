@@ -24,7 +24,7 @@ svg {
     /* padding: 35px; */
     background-image: url(places-to-visit-in-bulgaria.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -171,4 +171,8 @@ ul {
     font-size: 18px;
     font-weight: 400;
     line-height: auto;
+}
+
+.location-headline {
+    background-image: none;
 }
