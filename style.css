@@ -212,26 +212,33 @@ ul {
 }
 
 .card-container {
-    display: flex; /* Use Flexbox for horizontal layout */
-    justify-content: space-between; /* Space cards evenly */
-    gap: 20px; /* Add space between cards */
-    padding: 20px; /* Add padding around the container */
+    display: flex;
+    gap: 24px; 
     margin: 31px;
 }
 
 .card {
     position: relative; /* Required for positioning text */
-    flex: 1; /* Each card takes equal space */
-    overflow: hidden; /* Ensure the image doesn't overflow */
+    width: 430px;
+    height: 400px;
+    flex: 1;
+    overflow: hidden; 
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 10%, transparent 25%);
+    background-size: cover;
+    background-position: center;
 }
 
 .card img {
-    width: 100%; /* Make the image fill the card */
-    height: 300px; /* Set a fixed height for consistency */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
-    display: block; /* Remove extra space below the image */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+    z-index: 0;
+
 }
 
 .card-text {
@@ -239,7 +246,8 @@ ul {
     bottom: 20px; /* Distance from the bottom */
     left: 20px; /* Distance from the left */
     color: white; /* Text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to text for better readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow to text for better readability */
+    z-index: 2;
 }
 
 .card-text h2 {
