@@ -437,3 +437,55 @@ ul {
 .explore-more:hover {
     background-color: #333; /* Darker on hover */
 }
+
+.testimonials-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between testimonials */
+}
+
+.testimonial {
+    flex: 1;
+    /* background: #E5E5E5; */
+    border: 1px solid #E5E5E5; /* Slight border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 14px;
+}
+
+.author .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.author .role {
+    color: #666;
+}
