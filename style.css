@@ -87,16 +87,17 @@ ul {
 .nav-links a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    transition: 0.3s ease;
 }
 
-/* .auth-buttons {
-    margin-left: auto; /* Pushes to the right */
-    /* display: flex;
-    gap: 10px;  */
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+
 .login-button {
     display: flex;
-    /* width: 41px;
-    height: 21px; */
     align-items: center;
     color: white;
     background: none;
