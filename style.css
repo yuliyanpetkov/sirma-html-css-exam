@@ -173,6 +173,36 @@ ul {
     line-height: auto;
 }
 
+.explore-locations {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
 .location-headline {
-    background-image: none;
+    padding-top: 5rem;
+    max-width: 600px;
+    margin: auto;
+    z-index: 1;
+}
+
+.location-headline h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 120%;
+    color: black;
+}
+
+.location-headline-padding {
+    padding-bottom: 24px;
+}
+
+.location-headline p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: black;
 }
