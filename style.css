@@ -563,6 +563,9 @@ ul {
     background: #000000; /* Pure black background */
     color: white;
     padding: 40px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-content {
@@ -583,8 +586,9 @@ ul {
 .footer-logo p {
     font-size: 14px;
     color: #ccc;
-    max-width: 300px;
-    margin-bottom: 20px; /* Space between paragraph and links */
+    max-width: 706px;
+    padding-top: 32px;
+    margin-bottom: 32px;
 }
 
 .footer-links ul {
@@ -622,16 +626,16 @@ ul {
 
 .footer-newsletter input {
     padding: 10px;
-    border: 1px solid #555;
+    border: 1px solid #ffffff;
     border-radius: 25px; /* Rounded corners like the button */
-    background: #444;
+    background: #000000;
     color: white;
     font-size: 14px;
     flex: 1;
 }
 
 .footer-newsletter input::placeholder {
-    color: #999;
+    color: #ffffff;
 }
 
 .footer-newsletter button {
@@ -646,8 +650,8 @@ ul {
 }
 
 .footer-newsletter button:hover {
-    background: black; /* Black background on hover */
-    color: white; /* White text on hover */
+    background: rgb(61, 61, 61); 
+    color: white;
 }
 
 .footer-bottom {
